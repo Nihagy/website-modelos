@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 50px 10px;
+    transition: .5s;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9;
+}
+
+header a{
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+header a:last-child{
+    margin-right: 50px;
+}
+
+header #logo{
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+header a:hover{
+    background-color: #ddd;
+}
+
+header a.ativo{
+    background-color: #f00;
+    color:#fff;
+}
+
+#menu{
+    float: right;
+}
+
+section{
+    margin-top: 210px;
+    padding: 15px 15px 2500px;
+    font-size: 30px;
+}
